@@ -1,5 +1,7 @@
 /*
-Working with arrays and commands
+Working with arrays and commands.
+This is a console application ToDoList where you can add, edit and delete tasks.
+You can also return the whole list with the 'list command'.
 */
 
 import java.util.Scanner;
