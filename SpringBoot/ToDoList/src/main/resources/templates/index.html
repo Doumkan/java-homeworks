@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Список дел (<span th:text="${tasksCount}">0</span>)</h1>
+<br>
+<div id="tasks">
+    <div th:each="task : ${tasks}">
+        <span th:text="${task.text}"></span>
+    </div>
+</div>
+</body>
+</html>
